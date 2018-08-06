@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1E31B9DC-187D-4A44-B0AC-F572953032A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>RT101V001.My.MyApplication</StartupObject>
+    <RootNamespace>RT101V001</RootNamespace>
+    <AssemblyName>RT-101</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>RT-101.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>RT-101.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\AddNote.Designer.vb">
+      <DependentUpon>AddNote.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddNote.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Builder.Designer.vb">
+      <DependentUpon>Builder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Builder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cap.Designer.vb">
+      <DependentUpon>Cap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Downloader.Designer.vb">
+      <DependentUpon>Downloader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Downloader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FileManager.Designer.vb">
+      <DependentUpon>FileManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FileManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IconChanger\IconChanger.Designer.vb">
+      <DependentUpon>IconChanger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IconChanger\IconChanger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Information.Designer.vb">
+      <DependentUpon>Information.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Information.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Keylogger.Designer.vb">
+      <DependentUpon>Keylogger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Keylogger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LogSystem\LogSettings.Designer.vb">
+      <DependentUpon>LogSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LogSystem\LogSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LogSystem\LogsViewer.Designer.vb">
+      <DependentUpon>LogsViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LogSystem\LogsViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NetHelper\HostnameResolver.Designer.vb">
+      <DependentUpon>HostnameResolver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NetHelper\HostnameResolver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NetHelper\PortCheck.Designer.vb">
+      <DependentUpon>PortCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NetHelper\PortCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Notify\DropNotify.Designer.vb">
+      <DependentUpon>DropNotify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Notify\DropNotify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RegistryEditor\RegistryEditor.Designer.vb">
+      <DependentUpon>RegistryEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RegistryEditor\RegistryEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RegistryEditor\Rgv.Designer.vb">
+      <DependentUpon>Rgv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RegistryEditor\Rgv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Func.vb" />
+    <Compile Include="Modules\Getcountry.vb" />
+    <Compile Include="Modules\IconInjector.vb" />
+    <Compile Include="Modules\ListSorter.vb" />
+    <Compile Include="Modules\LogClass.vb" />
+    <Compile Include="Modules\MyRenderer.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Modules\SocketServer.vb" />
+    <Compile Include="Forms\NetHelper\NetHelper.Designer.vb">
+      <DependentUpon>NetHelper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NetHelper\NetHelper.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PasswordProtect.Designer.vb">
+      <DependentUpon>PasswordProtect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PasswordProtect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProcessManager.Designer.vb">
+      <DependentUpon>ProcessManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProcessManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RemoteShell.Designer.vb">
+      <DependentUpon>RemoteShell.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RemoteShell.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Notify\Notify.Designer.vb">
+      <DependentUpon>Notify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Notify\Notify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Theme\Divider.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Theme\DotNetBarTabcontrol.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Theme\Explorer.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\AddNote.resx">
+      <DependentUpon>AddNote.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Builder.resx">
+      <DependentUpon>Builder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cap.resx">
+      <DependentUpon>Cap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Downloader.resx">
+      <DependentUpon>Downloader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FileManager.resx">
+      <DependentUpon>FileManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IconChanger\IconChanger.resx">
+      <DependentUpon>IconChanger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Information.resx">
+      <DependentUpon>Information.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Keylogger.resx">
+      <DependentUpon>Keylogger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LogSystem\LogSettings.resx">
+      <DependentUpon>LogSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LogSystem\LogsViewer.resx">
+      <DependentUpon>LogsViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NetHelper\HostnameResolver.resx">
+      <DependentUpon>HostnameResolver.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NetHelper\PortCheck.resx">
+      <DependentUpon>PortCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Notify\DropNotify.resx">
+      <DependentUpon>DropNotify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Notify\Notify.resx">
+      <DependentUpon>Notify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RegistryEditor\RegistryEditor.resx">
+      <DependentUpon>RegistryEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RegistryEditor\Rgv.resx">
+      <DependentUpon>Rgv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NetHelper\NetHelper.resx">
+      <DependentUpon>NetHelper.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PasswordProtect.resx">
+      <DependentUpon>PasswordProtect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProcessManager.resx">
+      <DependentUpon>ProcessManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RemoteShell.resx">
+      <DependentUpon>RemoteShell.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_mouse_add_5524.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_mouse_delete_5525.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_group_36090.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dropper.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Client.exe" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
