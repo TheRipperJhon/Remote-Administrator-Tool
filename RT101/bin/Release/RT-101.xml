@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+RT-101
+</name>
+</assembly>
+<members>
+<member name="T:RT101V001.My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:RT101V001.My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:RT101V001.My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="P:RT101V001.My.Resources.Resources.camera">
+<summary>
+  Cerca una risorsa localizzata di tipo System.IO.UnmanagedMemoryStream simile a System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:RT101V001.My.Resources.Resources.Client">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Byte[].
+</summary>
+</member>
+<member name="P:RT101V001.My.Resources.Resources.Dropper">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Byte[].
+</summary>
+</member>
+<member name="P:RT101V001.My.Resources.Resources.mousenook">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RT101V001.My.Resources.Resources.mouseok">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RT101V001.My.Resources.Resources.newgroup">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:RT101V001.Form1.ApplyTheme(System.Windows.Forms.Control)">
+ <summary>
+ Applies the explorer theme to the specified control.
+ </summary>
+ <param name="control">Indicates the control to apply the theme to.</param>
+</member>
+<member name="M:RT101V001.Form1.ClearTheme(System.Windows.Forms.Control)">
+ <summary>
+ Clears the applied theme from the specified control.
+ </summary>
+ <param name="control">Indicates the control to clear the theme from.</param>
+</member>
+<member name="M:RT101V001.PortCheck.IsPortOpen(System.String,System.Int32)">
+ <summary>
+ Checks to see if a TCP port is open on a specified device
+ </summary>
+ <param name="Host">The name or IP address of the device to check for the open port on</param>
+ <param name="PortNumber">The TCP port to test</param>
+</member>
+</members>
+</doc>
